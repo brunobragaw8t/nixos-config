@@ -1,6 +1,9 @@
 { config, pkgs, ... }:
 {
-  imports = [ ./hm-modules/hyprland.nix ];
+  imports = [
+    ./hm-modules/hyprland.nix
+    ./hm-modules/wofi.nix
+  ];
 
   home.username = "braga";
   home.homeDirectory = "/home/braga";
