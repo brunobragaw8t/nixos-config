@@ -39,6 +39,12 @@
 
   programs.hyprland.enable = true;
 
+  # Portal that serves the color-scheme preference to apps on Wayland
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+  };
+
   services.displayManager.ly.enable = true;
 
   

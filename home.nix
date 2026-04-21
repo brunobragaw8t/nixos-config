@@ -2,6 +2,7 @@
 {
   imports = [
     ./hm-modules/hyprland.nix
+    ./hm-modules/theme.nix
     ./hm-modules/wofi.nix
   ];
 
