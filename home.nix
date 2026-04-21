@@ -10,4 +10,16 @@
       btw = "echo I use NixOS, btw";
     };
   };
+  programs.git = {
+    enable = true;
+    settings = {
+      user = {
+        name = "Bruno Braga";
+        email = "brunobragaw8t@gmail.com";
+      };
+      alias = {
+        lg = "log --oneline --graph --decorate";
+      };
+    };
+  };
 }
