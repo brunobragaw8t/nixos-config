@@ -1,0 +1,13 @@
+{ config, pkgs, ... }:
+{
+  home.username = "braga";
+  home.homeDirectory = "/home/braga";
+  home.stateVersion = "25.11"; # Pins to initial version, don't bump it
+  programs.home-manager.enable = true;
+  programs.bash = {
+    enable = true;
+    shellAliases = {
+      btw = "echo I use NixOS, btw";
+    };
+  };
+}
