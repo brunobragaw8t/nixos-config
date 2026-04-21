@@ -7,13 +7,14 @@
   home.stateVersion = "25.11"; # Pins to initial version, don't bump it
   home.packages = with pkgs; [
     claude-code
+    lazygit
   ];
 
   programs.home-manager.enable = true;
   programs.bash = {
     enable = true;
     shellAliases = {
-      btw = "echo I use NixOS, btw";
+      lg = "lazygit";
     };
   };
   programs.git = {
@@ -22,9 +23,6 @@
       user = {
         name = "Bruno Braga";
         email = "brunobragaw8t@gmail.com";
-      };
-      alias = {
-        lg = "log --oneline --graph --decorate";
       };
     };
   };
