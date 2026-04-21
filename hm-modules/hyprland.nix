@@ -215,9 +215,10 @@ input {
     follow_mouse = 1
 
     sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
+    accel_profile = flat # Disable mouse acceleration
 
     touchpad {
-        natural_scroll = false
+        natural_scroll = true
     }
 }
 
