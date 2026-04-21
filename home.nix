@@ -5,6 +5,10 @@
   home.username = "braga";
   home.homeDirectory = "/home/braga";
   home.stateVersion = "25.11"; # Pins to initial version, don't bump it
+  home.packages = with pkgs; [
+    claude-code
+  ];
+
   programs.home-manager.enable = true;
   programs.bash = {
     enable = true;

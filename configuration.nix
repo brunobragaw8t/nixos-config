@@ -37,9 +37,7 @@
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
 
-  programs.hyprland = {
-    enable = true;
-  };
+  programs.hyprland.enable = true;
 
   services.displayManager.ly.enable = true;
 
@@ -82,6 +80,8 @@
     git
     kitty
   ];
+
+  nixpkgs.config.allowUnfree = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
