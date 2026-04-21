@@ -1,5 +1,7 @@
 { config, pkgs, ... }:
 {
+  imports = [ ./hm-modules/hyprland.nix ];
+
   home.username = "braga";
   home.homeDirectory = "/home/braga";
   home.stateVersion = "25.11"; # Pins to initial version, don't bump it
