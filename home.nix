@@ -5,6 +5,7 @@
     ./hm-modules/theme.nix
     ./hm-modules/waybar.nix
     ./hm-modules/wofi.nix
+    ./hm-modules/kitty.nix
   ];
 
   home.username = "braga";
