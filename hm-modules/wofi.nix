@@ -15,7 +15,7 @@
 
     style = ''
       * {
-          font-family: monospace;
+          font-family: "JetBrainsMono Nerd Font", monospace;
           font-size: 16px;
       }
 

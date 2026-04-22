@@ -12,6 +12,7 @@
   home.packages = with pkgs; [
     claude-code
     lazygit
+    nerd-fonts.jetbrains-mono
   ];
 
   programs.home-manager.enable = true;
