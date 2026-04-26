@@ -15,6 +15,7 @@
     claude-code
     lazygit
     nerd-fonts.jetbrains-mono
+    pavucontrol
   ];
 
   programs.home-manager.enable = true;
