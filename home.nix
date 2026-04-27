@@ -15,6 +15,7 @@
     claude-code
     lazygit
     nerd-fonts.jetbrains-mono
+    hyprpaper
     pavucontrol
   ];
 
