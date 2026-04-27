@@ -19,6 +19,7 @@ window#waybar {
 }
 
 #clock,
+#custom-power-profile,
 #pulseaudio,
 #network,
 #battery {
