@@ -16,6 +16,7 @@
     lazygit
     nerd-fonts.jetbrains-mono
     hyprpaper
+    opencode
     pavucontrol
   ];
 
@@ -24,6 +25,7 @@
     enable = true;
     shellAliases = {
       lg = "lazygit";
+      oc = "opencode";
     };
   };
   programs.git = {
