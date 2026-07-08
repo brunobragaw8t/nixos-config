@@ -13,6 +13,7 @@
   home.stateVersion = "25.11"; # Pins to initial version, don't bump it
   home.packages = with pkgs; [
     claude-code
+    discord
     lazygit
     nerd-fonts.jetbrains-mono
     hyprpaper
