@@ -18,6 +18,7 @@
     hyprpaper
     opencode
     pavucontrol
+    zen-browser
   ];
 
   programs.home-manager.enable = true;
