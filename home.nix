@@ -17,6 +17,7 @@
     lazygit
     nerd-fonts.jetbrains-mono
     hyprpaper
+    mpv
     opencode
     pavucontrol
     zen-browser
