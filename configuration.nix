@@ -83,6 +83,7 @@
     wget
     git
     kitty
+    wev
   ];
 
   nixpkgs.config.allowUnfree = true;
