@@ -20,6 +20,8 @@
     mpv
     opencode
     pavucontrol
+    ffmpeg
+    stremio-linux-shell
     zen-browser
   ];
 
