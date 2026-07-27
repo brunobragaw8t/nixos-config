@@ -39,6 +39,13 @@
 
   programs.hyprland.enable = true;
 
+  programs.steam = {
+    enable = true;
+    gamescopeSession.enable = true;
+    remotePlay.openFirewall = true;
+    dedicatedServer.openFirewall = true;
+  };
+
   # Portal that serves the color-scheme preference to apps on Wayland
   xdg.portal = {
     enable = true;
